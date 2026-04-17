@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vitest *)",
+      "Bash(npm audit *)",
+      "Bash(npm ls *)",
+      "Bash(npm install *)",
+      "Bash(npm info *)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const v=JSON.parse\\(d\\); console.log\\(v.filter\\(x=>x.startsWith\\('2.'\\)\\).slice\\(-5\\).join\\(', '\\)\\)\")",
+      "Bash(npm test *)",
+      "mcp__playwright"
+    ]
+  }
+}
